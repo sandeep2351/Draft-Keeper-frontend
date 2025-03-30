@@ -1,69 +1,60 @@
-# Welcome to your Lovable project
+Draft Keeper - Frontend
+A web application for managing and organizing drafts efficiently.
 
-## Project info
+🚀 Live Demo
+🔗 Draft Keeper (Frontend):https://draft-keeper-frontend.vercel.app/
 
-**URL**: https://lovable.dev/projects/29c50e61-fecf-464c-a520-08382eb65de6
+📌 Features
+User authentication (Signup/Login with Firebase)
 
-## How can I edit this code?
+Create, update, and delete drafts
 
-There are several ways of editing your application.
+Real-time syncing with backend
 
-**Use Lovable**
+Responsive UI for all devices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29c50e61-fecf-464c-a520-08382eb65de6) and start prompting.
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+State Management: Context API
 
-**Use your preferred IDE**
+Authentication: Firebase
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Deployment: Vercel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🏗️ Setup & Installation
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/draft-keeper-frontend.git
+cd draft-keeper-frontend
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4️⃣ Run the App
+bash
+Copy
+Edit
 npm run dev
-```
+The app should now be running at http://localhost:5173.
 
-**Edit a file directly in GitHub**
+🚀 Deployment
+The frontend is deployed on Vercel. To deploy manually:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+bash
+Copy
+Edit
+npm run build
+vercel deploy
+🐛 Troubleshooting
+Firebase auth error: Ensure the deployed domain is added in Firebase → Authentication → Authorized domains.
 
-**Use GitHub Codespaces**
+CORS issues: Verify backend CORS settings allow https://draft-keeper-frontend.vercel.app.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+👥 Contributors
+P. Sandeep Kalyan
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/29c50e61-fecf-464c-a520-08382eb65de6) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
